@@ -1,51 +1,59 @@
-# Intervue — Technical Interview Resources Website
+# 🧠 Intervue — Technical Interview Resources Website
 
 A simple and responsive website that helps users find technical interview resources easily.  
-Built using **HTML**, **CSS (TailwindCSS)**, and **Lucide Icons** for a clean and modern look.
+Built using **HTML**, **TailwindCSS**, and **Lucide Icons** for a clean and modern look.
 
 ---
 
 ## 🚀 Features
 
-- 🧭 Responsive navigation bar (mobile-friendly)
-- 🎯 Search bar for quick access to resources
-- 📱 Adaptive hero section with clean layout
-- 🌗 Minimal and elegant design with TailwindCSS
-- ♿ Accessible structure with ARIA support
+- 🧭 Responsive navigation bar (mobile-friendly)  
+- 🎯 Search bar for quick access to resources  
+- 📱 Adaptive hero section with clean layout  
+- 🌗 Minimal and elegant design with TailwindCSS  
+- ♿ Accessible structure with ARIA support  
 
 ---
 
 ## 🧩 Tech Stack
 
-- **HTML5**
-- **TailwindCSS**
-- **Lucide Icons**
-- **JavaScript (vanilla)**
+- **HTML5**  
+- **TailwindCSS**  
+- **Lucide Icons**  
+- **JavaScript (Vanilla)**  
 
 ---
 
 ## 📦 Folder Structure
 
+```bash
 intervue/
 ├── index.html
 ├── style.css
 ├── script.js
 └── README.md
+⚙️ How to Run Locally
+Clone this repository:
 
-yaml
+bash
 Copy code
-
----
-
-## ⚙️ How to Run Locally
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/kumarharsh-connect/intervue.git
-   cd intervue
-Open index.html in your browser, or run with a simple live server:
+git clone https://github.com/kumarharsh-connect/intervue.git
+cd intervue
+Open the project in your browser:
+Simply open index.html manually, or run it using a local server:
 
 bash
 Copy code
 npx live-server
-(or use VS Code’s Live Server extension)
+(Alternatively, use VS Code’s Live Server extension.)
+
+🌐 Live Demo
+👉 View Deployed Website
+
+👨‍💻 Author
+Harsh Kumar
+B.Tech (Mechanical Engineering), DTU
+🔗 LinkedIn
+📧 kumarharsh.connect@gmail.com
+
+
