@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Sora', sans-serif;
+}
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.resource-card {
+  background: #ffffff;
+  border: 1px solid #adadad;
+  border-radius: 8px;
+  padding: 24px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.resource-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.badge {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 4px 12px;
+  border-radius: 4px;
+  margin-right: 8px;
+  margin-bottom: 12px;
+  vertical-align: middle;
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+  /* Header mobile menu button */
+  .mobile-menu-button {
+    display: block;
+  }
+
+  /* Footer accordion functionality */
+  .footer-accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+  }
+
+  .footer-accordion-content.active {
+    max-height: 500px;
+  }
+
+  /* Adjust spacing for mobile */
+  .py-16 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  /* Adjust text sizes for mobile */
+  h1 {
+    font-size: 2rem !important;
+  }
+
+  h2 {
+    font-size: 1.75rem !important;
+  }
+
+  /* Stack elements vertically on mobile */
+  .flex-col-mobile {
+    flex-direction: column;
+  }
+
+  /* Full width elements on mobile */
+  .w-full-mobile {
+    width: 100% !important;
+  }
+
+  /* Adjust spacing between stacked elements */
+  .gap-mobile-4 {
+    gap: 1rem;
+  }
+
+  /* Center align text on mobile */
+  .text-center-mobile {
+    text-align: center;
+  }
+}
+
+.badge + .text-xs {
+  display: inline-block;
+  margin-bottom: 12px;
+  vertical-align: middle;
+}
+
+.badge-blue-tag {
+  background: #3b82f6;
+  color: white;
+}
+
+.badge-orange-tag {
+  background: #f97316;
+  color: white;
+}
+
+.badge-green-tag {
+  background: #10b981;
+  color: white;
+}
+.faq-item {
+  border-bottom: 1px solid #e5e7eb;
+  padding: 16px 0;
+}
+.faq-item:last-child {
+  border-bottom: none;
+}
+.faq-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+.faq-item.active .faq-content {
+  max-height: 200px;
+}
+
+@keyframes fadeSlide {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeSlide {
+  animation: fadeSlide 0.25s ease-out;
+}
