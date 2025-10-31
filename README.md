@@ -32,28 +32,43 @@ intervue/
 ├── style.css
 ├── script.js
 └── README.md
-⚙️ How to Run Locally
-Clone this repository:
+```
 
-bash
-Copy code
-git clone https://github.com/kumarharsh-connect/intervue.git
-cd intervue
-Open the project in your browser:
-Simply open index.html manually, or run it using a local server:
+---
 
-bash
-Copy code
-npx live-server
-(Alternatively, use VS Code’s Live Server extension.)
+## ⚙️ How to Run Locally
 
-🌐 Live Demo
-👉 View Deployed Website
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/kumarharsh-connect/intervue.git
+   cd intervue
+   ```
 
-👨‍💻 Author
-Harsh Kumar
-B.Tech (Mechanical Engineering), DTU
-🔗 LinkedIn
+2. Open the project in your browser:  
+   Simply open `index.html` manually, **or** run it using a local server:
+
+   ```bash
+   npx live-server
+   ```
+   *(Alternatively, use VS Code’s **Live Server** extension.)*
+
+---
+
+## 🌐 Live Demo
+
+👉 [View Deployed Website](https://kumarharsh-connect.github.io/intervue/)
+
+---
+
+## 🖼️ Preview
+
+![Website Preview](https://kumarharsh-connect.github.io/intervue/preview.png)
+
+---
+
+## 👨‍💻 Author
+
+**Harsh Kumar**  
+B.Tech (Mechanical Engineering), DTU  
+🔗 [LinkedIn](https://www.linkedin.com/in/kumarharsh09/)  
 📧 kumarharsh.connect@gmail.com
-
-
