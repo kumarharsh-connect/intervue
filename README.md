@@ -1,7 +1,7 @@
 # 🧠 Intervue — Technical Interview Resources Website
 
 A simple and responsive website that helps users find technical interview resources easily.  
-Built using **HTML**, **TailwindCSS**, and **Lucide Icons** for a clean and modern look.
+Built using **HTML**, **TailwindCSS**, and **JavaScript** for a clean and modern look.
 
 ---
 
